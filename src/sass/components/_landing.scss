@@ -50,16 +50,13 @@
 
     padding: 10px 73px;
 }
-
-.advices {
-    background-image: url('../img/Rectangle 37.jpg');
-        // background-position: center;
-        // background-repeat: no-repeat;
-        // background-size: cover;
+.advices__container {
+    position: relative;
+    background-color: var(--second-accent-color);
 }
 .sticker {
     position: absolute;
-    left: 20px;
-    top: 520px;
-    transform: rotate(-4.38deg);
+        top: 31px;
+        left: 20px;
+        transform: rotate(-4.38deg);
 }
