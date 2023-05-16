@@ -1,0 +1,65 @@
+.hero {
+    margin: 5px 0;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        background-color: var(--bg-color-container);
+        padding: 70px 20px 30px;
+        
+}
+
+.hero__title {
+    font-family: 'TT Firs Neue';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: var(--primary-color);
+
+    margin-bottom: 20px;
+}
+
+.hero__text {
+    width: 270px;
+    // font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--primary-color);
+
+    margin-bottom: 100px;
+}
+
+.hero__btn {
+    // display: flex;
+    width: 280px;
+    height: 41px;
+        font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--primary-color);
+    background: var(--first-accent-color);
+    border-radius: 110px;
+    border: none;
+
+    cursor: pointer;
+
+    padding: 10px 73px;
+}
+
+.advices {
+    background-image: url('../img/Rectangle 37.jpg');
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+}
+.sticker {
+    position: absolute;
+    left: 20px;
+    top: 520px;
+    transform: rotate(-4.38deg);
+}
