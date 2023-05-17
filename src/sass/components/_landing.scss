@@ -5,10 +5,10 @@
 .hero__container {
     display: flex;
     flex-direction: column;
-        align-items: center;
-        background-color: var(--bg-color-container);
-        padding: 70px 20px 30px;
-        
+    align-items: center;
+    background-color: var(--bg-color-container);
+    padding: 70px 20px 30px;
+
 }
 
 .hero__title {
@@ -37,7 +37,7 @@
     // display: flex;
     width: 280px;
     height: 41px;
-        font-family: 'Manrope';
+    font-family: 'Manrope';
     font-weight: 600;
     font-size: 14px;
     line-height: 150%;
@@ -50,13 +50,53 @@
 
     padding: 10px 73px;
 }
+
+.advices {
+    margin-bottom: 5px;
+}
+
 .advices__container {
     position: relative;
     background-color: var(--second-accent-color);
 }
+
 .sticker {
     position: absolute;
-        top: 31px;
-        left: 20px;
-        transform: rotate(-4.38deg);
+    top: 31px;
+    left: 20px;
+    transform: rotate(-4.38deg);
 }
+
+.what {
+    margin-bottom: 5px;
+}
+
+.what__container {
+    padding: 29px 56px;
+}
+
+.what__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--primary-color);
+}
+
+.info {
+    margin-bottom: 5px;
+}
+
+.info__container {
+    padding: 30px 20px;
+}
+
+.info__title {
+    font-family: 'TT Firs Neue';
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 108%;text-transform: uppercase;
+     color: var(--primary-color);
+
+     margin-bottom: 30px;
+}
+
