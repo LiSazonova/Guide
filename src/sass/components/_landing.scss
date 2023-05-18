@@ -1,17 +1,106 @@
-.hero {
-    margin: 5px 0;
+.main {
+    margin: 5px;
 }
 
-.hero__container {
+.main__list {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--bg-color-container);
-    padding: 70px 20px 30px;
-
+    flex-wrap: wrap;
+    justify-content: center;    
+    gap: 5px;
 }
 
-.hero__title {
+.main__card-first {
+    display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 70px 20px 30px;
+            background-color: var(--bg-color-container);
+            border-radius: 20px;
+            max-width: 320px;
+}
+
+.main__card-second {
+    background-image: url('../img/hero-mob-2x.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 20px;
+            height: 390px;
+            width: 320px;
+                
+            position: relative;
+}
+    // .hero__list {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     gap: 5px;
+//     margin: 5px;
+    
+
+//     // @include desktop {
+//     //     column-gap: 5px;
+//     //     margin: 10px;
+//     // }
+
+// }
+// // // .hero{
+// // //     gap: 5px;
+// // //     display: flex;
+// // //     flex-direction: column;
+// // //     margin: 5px;
+// // //     height: auto;
+// // //     justify-content: center;
+
+// // //     @include desktop {
+// // //         display: flex;
+// // //         // flex-wrap: wrap;
+// // //         flex-direction: row;
+// // //         justify-content: center;
+// // //         gap: 5px;
+// // //         margin: 10px;
+// // //     }
+// // // }
+
+
+// .hero__card-first {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding: 70px 20px 30px;
+//     background-color: var(--bg-color-container);
+//     border-radius: 20px;
+//     max-width: 320px;
+
+
+//     // @include desktop {
+//     //     align-items: flex-start;
+//     //     max-width: 788px;
+//     //     height: 887px;
+//     //     padding: 30px;
+//     // }
+// }
+
+
+// .hero__card-second {
+//     background-image: url('../img/hero-mob-2x.jpg');
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     border-radius: 20px;
+//     height: 390px;
+//     max-width: 320px;
+
+//     position: relative;
+
+//     // @include desktop {
+//     //     background-image: url('../img/hero-desktop-2x.jpg');
+//     //     max-width: 788px;
+//     //     height: 887px;
+//     // }
+// }
+
+.main__title {
     font-family: 'TT Firs Neue';
     font-weight: 500;
     font-size: 40px;
@@ -20,21 +109,31 @@
     color: var(--primary-color);
 
     margin-bottom: 20px;
+    width: 270px;
+
+//     // @include desktop {
+//     //     font-size: 80px;
+//     //     margin-bottom: 32px;
+//     //     }
 }
 
-.hero__text {
-    width: 280px;
-    // font-family: 'Manrope';
+.main__text {
+    width: 270px;
     font-weight: 500;
     font-size: 16px;
     line-height: 130%;
     color: var(--primary-color);
 
     margin-bottom: 100px;
+
+    // @include desktop {
+    //     width: 528px;
+    //     font-size: 24px;
+    //     margin-bottom: 419px;
+    // }
 }
 
 .orange__btn {
-    // display: flex;
     width: 280px;
     height: 41px;
     font-family: 'Manrope';
@@ -49,22 +148,26 @@
     cursor: pointer;
 
     padding: 10px 73px;
+
+    // @include desktop {
+    //         font-size: 24px;
+    //         width: 100%;
+    //         height: 91px;
+    //     }
 }
 
-.advices {
-    margin-bottom: 5px;
-}
-
-.advices__container {
-    position: relative;
-    background-color: var(--second-accent-color);
-}
-
-.sticker {
+.main__img {
+    width: 130px;
     position: absolute;
     top: 31px;
     left: 20px;
     transform: rotate(-4.38deg);
+
+//     // @include desktop {
+//         //     width: 240px;
+//         //     top: 110px;
+//         //     left: 100px;
+//         // }    
 }
 
 .text-block {
@@ -84,12 +187,19 @@
 }
 
 .info {
-    margin-bottom: 5px;
+    flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        display: flex;
 }
 
 .info__container {
     padding: 30px 20px;
 }
+
+// .info__container:last-child {
+//     margin-bottom: 5px;
+// }
 
 .info__title {
     font-family: 'TT Firs Neue';
@@ -108,42 +218,43 @@
     gap: 15px;
 }
 
-.info__item, .info__text {
+.info__item,
+.info__text {
     font-weight: 400;
     font-size: 14px;
     line-height: 160%;
     color: var(--primary-color);
 }
 
-.accent {
-    margin-bottom: 5px;
-}
+// // // .accent {
+// // //     margin-bottom: 5px;
+// // // }
 
-.accent__container {
-    background-color: var(--second-accent-color);
-    padding: 30px 20px;
-}
+// // // .accent__container {
+// // //     background-color: var(--second-accent-color);
+// // //     padding: 30px 20px;
+// // // }
 
-.accent__title {
-    font-family: 'TT Firs Neue';
-    font-weight: 500;
-    font-size: 31px;
-    line-height: 108%;
-    text-transform: uppercase;
+// // // .accent__title {
+// // //     font-family: 'TT Firs Neue';
+// // //     font-weight: 500;
+// // //     font-size: 31px;
+// // //     line-height: 108%;
+// // //     text-transform: uppercase;
 
-    color: var(--primary-color);
-}
+// // //     color: var(--primary-color);
+// // // }
 
-.examples {
-    margin-bottom: 5px;
-}
+// // // .examples {
+// // //     margin-bottom: 5px;
+// // // }
 
 .title-block {
-    margin-bottom: 5px;
+    margin: 5px 0;
 }
 
 .title-block__container {
-    padding: 30px 0 30px 20px;
+    padding: 30px 20px;
 }
 
 .title-block__title {
@@ -155,81 +266,91 @@
     color: var(--primary-color);
 }
 
-.about{
-    margin-bottom: 5px;
+.title-block__container--purple {
+    background-color: var(--second-accent-color);
 }
 
-.about__container {
-    padding: 30px 20px;
+.examples__list {
+    flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        display: flex;
 }
+// // // .about {
+// // //     margin-bottom: 5px;
+// // // }
 
-.about__img {
-    margin: auto;
-}
+// // // .about__container {
+// // //     padding: 30px 20px;
+// // // }
 
-.about__title {
-    font-family: 'TT Firs Neue';
-        
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 130%;
-        text-transform: uppercase;
-    
-        color: var(--primary-color);
-        margin-top: 20px;
-}
+// // // .about__img {
+// // //     margin: auto;
+// // // }
 
-.accent-orange {
-    margin-bottom: 5px;
-}
+// // // .about__title {
+// // //     font-family: 'TT Firs Neue';
 
-.accent-orange__container {
-padding: 30px 20px;
-background-color: var(--first-accent-color);
-}
+// // //     font-weight: 500;
+// // //     font-size: 30px;
+// // //     line-height: 130%;
+// // //     text-transform: uppercase;
 
-.accent-orange__title {
-    font-family: 'TT Firs Neue';
-        font-weight: 500;
-        font-size: 31px;
-        line-height: 130%;
-        text-transform: uppercase;
-    
-        color: var(--primary-color);
-        margin-bottom: 20px;
-}
+// // //     color: var(--primary-color);
+// // //     margin-top: 20px;
+// // // }
 
-.black__btn {
-    // display: flex;
-    width: 280px;
-    height: 41px;
-    font-family: 'Manrope';
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 150%;
-    color: var(--primary-color);
-    background: var(--bg-color-container);
-    border-radius: 110px;
-    border: none;
+// // // .accent-orange {
+// // //     margin-bottom: 5px;
+// // // }
 
-    cursor: pointer;
+// // // .accent-orange__container {
+// // //     padding: 30px 20px;
+// // //     background-color: var(--first-accent-color);
+// // // }
 
-    padding: 10px 73px;
-}
+// // // .accent-orange__title {
+// // //     font-family: 'TT Firs Neue';
+// // //     font-weight: 500;
+// // //     font-size: 31px;
+// // //     line-height: 130%;
+// // //     text-transform: uppercase;
 
-.contacts {
-    margin-bottom: 5px;
-}
+// // //     color: var(--primary-color);
+// // //     margin-bottom: 20px;
+// // // }
 
-.contacts__container {
-    padding: 30px 20px;
-}
+// // // .black__btn {
+// // //     // display: flex;
+// // //     width: 280px;
+// // //     height: 41px;
+// // //     font-family: 'Manrope';
+// // //     font-weight: 600;
+// // //     font-size: 14px;
+// // //     line-height: 150%;
+// // //     color: var(--primary-color);
+// // //     background: var(--bg-color-container);
+// // //     border-radius: 110px;
+// // //     border: none;
 
-.contacts__text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 160%;
-    color: var(--primary-color);
+// // //     cursor: pointer;
 
-    text-align: center;
-}
+// // //     padding: 10px 73px;
+// // // }
+
+// // // .contacts {
+// // //     margin-bottom: 5px;
+// // // }
+
+// // // .contacts__container {
+// // //     padding: 30px 20px;
+// // // }
+
+// // // .contacts__text {
+// // //     font-weight: 400;
+// // //     font-size: 14px;
+// // //     line-height: 160%;
+// // //     color: var(--primary-color);
+
+// // //     text-align: center;
+// // // }
