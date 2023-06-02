@@ -1,0 +1,48 @@
+.examples {
+    margin-bottom: 5px;
+}
+
+.exapmles__sticker-container {
+    position: absolute;
+}
+
+.examples__sticker {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 133px;
+    left: 195px;
+}
+
+.examples__container {
+    margin-bottom: 5px;
+}
+
+.examples__title {
+    font-family: 'TT Firs Neue';
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 108%;
+        text-transform: uppercase;
+}
+
+.examples__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    // position: absolute;
+}
+
+.examples__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.examples__item:last-child {
+    display: none;
+}
+
+
+
+

@@ -1,0 +1,14 @@
+.contacts__container {
+    padding: 29px 76px;
+}
+.contacts__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contacts__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.6;
+}

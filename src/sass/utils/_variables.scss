@@ -1,14 +1,14 @@
 :root {
     --primary-color: #FFFFFF;
-    --secondary-color: #252428;
 
     --first-accent-color: #FC4A02;
     --second-accent-color: #5C41FE;
+    --third-accent-color: #F1FA3C;
 
-    --bg-color-container: #1F1F1F;
-
+    --container-bg-color: #1F1F1F;
     --bg-color: #000000;
 }
 
 $mobile: 320px;
+$tablet: 820px;
 $desktop: 1600px;

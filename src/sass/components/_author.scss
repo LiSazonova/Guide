@@ -1,0 +1,40 @@
+.author {
+    margin-bottom: 5px;
+}
+
+.author__container {
+    margin-bottom: 5px;
+    padding: 108px 78px 30px 20px ;
+}
+
+.author__title {
+    font-family: 'TT Firs Neue';
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.author__list-sec {
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+
+.author__list {
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+.author__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.author__img {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+}

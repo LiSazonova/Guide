@@ -1,0 +1,29 @@
+.about {
+    margin-bottom: 5px;
+}
+
+.about__title {
+    font-family: 'TT Firs Neue';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 108%;
+    text-transform: uppercase;
+
+    margin-bottom: 30px;
+}
+.about__list-sec {
+display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.about__list {
+    display: flex;
+        flex-direction: column;
+        gap: 15px;
+}
+
+.about__container {
+    padding: 108px 93px 30px 20px;
+    margin-bottom: 5px;
+}
+

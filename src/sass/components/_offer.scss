@@ -1,0 +1,28 @@
+.offer__container {
+    margin-bottom: 5px;
+    padding: 108px 100px 30px 20px;
+}
+
+.offer__title {
+    font-family: 'TT Firs Neue';
+        font-weight: 500;
+        font-size: 31px;
+        line-height: 1.1;
+        text-transform: uppercase;
+}
+
+.offer__list-sec {
+display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.offer__list {
+display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.offer__box {
+    margin-bottom: 5px;
+}

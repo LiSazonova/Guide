@@ -1,0 +1,32 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 72px;
+    // margin-right: 378px;
+}
+
+.nav__list {
+    display: none;
+    // justify-content: space-between;
+    // gap: 60px;
+}
+
+.nav__item {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.28;
+}
+
+.menu-toggle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    border: none;
+    color: var(--primary-color);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+}
