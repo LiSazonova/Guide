@@ -18,6 +18,12 @@
             align-items: center;
 
     margin-bottom: 20px;
+
+    @media screen and (min-width: $tablet) {
+        justify-content: center;
+            align-items: center;
+            display: flex;
+    }
 }
 
 .price__text-left {
@@ -26,16 +32,12 @@
         font-size: 16px;
         line-height: 1.31;
         text-transform: uppercase;
+        text-decoration: line-through;
+
+        @media screen and (min-width: $tablet) {
+                margin-right: 30px;
+            }
 }
-
-.price__border {
-    position: absolute;
-        width: 68px;
-        height: 0px;          
-        border-top: 1px solid #FFFFFF;
-}
-
-
 
 .price__text-right {
     font-family: 'TT Firs Neue';

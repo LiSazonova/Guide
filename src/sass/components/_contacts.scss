@@ -1,14 +1,37 @@
 .contacts__container {
     padding: 29px 76px;
+
+    @media screen and (min-width: $tablet) {
+            padding: 79px 214px 30px 30px;
+        }
 }
+
 .contacts__list {
     display: flex;
     flex-direction: column;
     gap: 5px;
+
+    @media screen and (min-width: $tablet) {
+            display: flex;
+                flex-direction: row;
+        }
 }
 
 .contacts__text {
         font-weight: 400;
         font-size: 14px;
         line-height: 1.6;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
