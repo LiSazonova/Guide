@@ -1,109 +1,275 @@
 .main {
     margin-bottom: 5px;
-    
 }
 
-.main__list {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+.main__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+// .main {}
+
+// .container {}
+
+// .main__list {}
+
+// .bg-grafit {}
+
+.container__main-left {
+    padding: 30px 20px;
+    // margin-bottom: 5px;
+
+    @media screen and (min-width: $desktop) {
+            width: 788px;            
+            padding: 30px 30px;
+        }
 }
 
 .main__title {
     font-family: 'TT Firs Neue';
-    font-weight: 500;
-    font-size: 31px;
-    line-height: 1.2;
-    text-transform: uppercase;
-
-    margin-bottom: 32px;
-
-    @media screen and (min-width: $tablet) {
-        font-size: 50px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 31px;
         line-height: 1.2;
-    }
+        text-transform: uppercase;
+        width: 270px;
+
+        margin-bottom: 32px;
+
+        @media screen and (min-width: $desktop) {
+        font-size: 80px;
+        width: 716px;
+        }
+
 }
 
 .main__text {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.31;
+        font-size: 16px;
+        line-height: 1.3;
 
-    margin-bottom: 80px;
+        margin-bottom: 80px;
 
-    @media screen and (min-width: $tablet) {
-        width: 530px;
-            font-size: 18px;
-            line-height: 1.3;
+        @media screen and (min-width: $desktop) {
+                font-size: 24px;
+        margin-bottom: 419px;
+        width: 528px;
+            }
 
-    margin-bottom: 219px;
-        }
+        
 }
 
-// .main__foto {
-// border-radius: 25px;
-// }
 
 
-.main__sticker {
-    position: absolute;
-    left: 32px;
-    top: 58px;
+.container__main-right {
+    position: relative;
 
-    @media screen and (min-width: $mobile) {
-            // width: auto;
-            // height: auto;
-            width: 180px;
-            height: 105px;
-    
-            left: 38px; 
-            top: 64px;
+    @media screen and (min-width: $desktop) {            
+            width: 788px;
+            height: 887px;
         }
-    
-    @media screen and (min-width: $tablet) {
-            // width: auto;
-            // height: auto;
-            width: 220px;
-                height: 130px;
-    
-            left: 112px;
-            top: 158px;
-        }
-    
 }
 
 .main__sticker-container {
-    position: relative;
+        position: absolute;
+        top: 46px;
+            left: 37px;
+            @media screen and (min-width: $desktop) {
+                top: 118px;
+                    left: 80px;
+            }
 }
 
-// .main__img {
-//     width: 100%;
-//         height: 100%;
-//         border-radius: 20px;
-//     margin: 0;
-//         padding: 0;
-// }
-
-.main__img {
-    background-image: url(/src/img/main_foto.png);
-    background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 20px;
-}
-
-.container__main-box {
-    margin: 0 auto;
-        padding: 0;
-        max-width: $mobile;
-
-    @media screen and (min-width: $tablet) {
-            // padding: 0 40px;
-            max-width: $tablet;
-        }
+.main__list {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
 
         @media screen and (min-width: $desktop) {
-            // padding: 0 40px;
-            max-width: $desktop;
-        }
+                display: flex;
+                    flex-direction: row;
+                    gap: 5px;
+                    width: 778px;
+                        height: 887px;
+            }
+
+    //     // @media screen and (min-width: $tablet) {
+    //     //         display: flex;
+    //     //         flex-direction: row;
+    //     //         justify-content: center;
+    //     //         gap: 5px;
 }
+
+
+// .main__list {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 5px;
+
+//     // @media screen and (min-width: $tablet) {
+//     //         display: flex;
+//     //         flex-direction: row;
+//     //         justify-content: center;
+//     //         gap: 5px;
+//     //     }
+
+//     // @media screen and (min-width: $laptop) {
+//     //     display: flex;
+//     //     flex-direction: row;
+//     //     gap: 5px;
+//     // }
+
+//     @media screen and (min-width: $desktop) {
+//         display: flex;
+//         flex-direction: row;
+//         gap: 5px;
+//     }
+// }
+
+// .main__title {
+//     font-family: 'TT Firs Neue';
+//     font-weight: 500;
+//     font-size: 31px;
+//     line-height: 1.2;
+//     text-transform: uppercase;
+
+//     margin-bottom: 32px;
+
+//     @media screen and (min-width: $tablet) {
+//         font-size: 40px;
+//         line-height: 1.2;
+//     }
+
+//     @media screen and (min-width: $desktop) {
+//         font-size: 80px;
+//         line-height: 1.2;
+//         width: 716px;
+//     }
+// }
+
+// .main__text {
+//     font-weight: 500;
+//     font-size: 16px;
+//     line-height: 1.3;
+
+//     margin-bottom: 80px;
+
+//     @media screen and (min-width: $tablet) {
+//         // width: 530px;
+//         // font-size: 18px;
+//         // line-height: 1.3;
+
+//         margin-bottom: 179px;
+//     }
+
+//     @media screen and (min-width: $desktop) {
+//         font-size: 24px;
+//         line-height: 1.3;
+//         margin-bottom: 419px;
+//         width: 528px;
+//     }
+// }
+
+// .main__img {
+//     width: 310px;
+//     height: 390px;
+
+//     @media screen and (min-width: $desktop) {
+//         width: 778px;
+//         height: 887px;
+//     }
+
+// }
+
+
+.main__sticker {    
+    @media screen and (min-width: $desktop) {
+            width: 250px;
+                height: 145px;
+        
+    }
+
+    // @media screen and (min-width: $tablet) {
+    //     // width: auto;
+    //     // height: auto;
+    //     // width: 220px;
+    //     // height: 130px;
+
+    //     top: 40px;
+    //         left: 24px;
+    // }
+
+}
+
+// .main__sticker-container {
+//     position: relative;
+// }
+
+// // .main__img {
+// //     width: 100%;
+// //         height: 100%;
+// //         border-radius: 20px;
+// //     margin: 0;
+// //         padding: 0;
+// // }
+
+// // .main__img {
+// //     background-image: url(/src/img/main_foto.png);
+// //     background-position: center;
+// //     background-repeat: no-repeat;
+// //     background-size: cover;
+
+
+// //     @media screen and (min-width: $laptop) {
+// //             // width: 402px;
+// //             // height: 877px;
+// //         }
+// // }
+
+// // .container__main-right {
+// //     background-image: url(/src/img/main_foto.png);
+// //         background-position: center;
+// //         background-repeat: no-repeat;
+// //         background-size: cover;
+// //         border-radius: 20px;
+// // }
+// //     margin: 0 auto;
+// //     padding: 0;
+// //     // max-width: $mobile;
+
+// //     @media screen and (min-width: $tablet) {
+// //             width: 402px;
+// //         // max-width: $tablet;
+// //     }
+
+// //     @media screen and (min-width: $laptop) {
+// //         width: 702px;
+// //         // padding: 0 60px;
+// //         // max-width: $laptop;
+// //     }
+
+// //     @media screen and (min-width: $desktop) {
+// //         // max-width: $desktop;
+// //         width: 778px;
+// //                 height: 887px;
+// //     }
+// // }
+
+// .container__main-left {
+//     max-width: 375px;
+//     padding: 30px 20px;
+
+//     @media screen and (min-width: $desktop) {
+//         max-width: 778px;
+//         padding: 30px 42px 30px 30px;
+//     }
+// }
+
+// .container__main-right {
+//     max-width: 375px;
+
+//     @media screen and (min-width: $desktop) {
+//         max-width: 778px;
+//     }
+// }

@@ -7,12 +7,18 @@
     padding: 108px 78px 30px 20px ;
 }
 
-.author__title {
+.author__title {    
     font-family: 'TT Firs Neue';
     font-weight: 500;
     font-size: 31px;
     line-height: 1.1;
     text-transform: uppercase;
+    width: 270px;
+
+    @media screen and (min-width: $desktop) {
+        font-size: 57px;
+            width: 712px;
+        }
 }
 
 .author__list-sec {
@@ -20,10 +26,11 @@ display: flex;
 flex-direction: column;
 gap: 5px;
 
-@media screen and (min-width: $tablet) {
-    flex-direction: row;
-        align-items: center;
-        display: flex;
+@media screen and (min-width: $desktop) {
+        flex-direction: row;
+            gap: 5px;
+            display: flex;
+            justify-content: center;
     }
 }
 
@@ -35,19 +42,34 @@ flex-direction: column;
 gap: 15px;
 
 @media screen and (min-width: $tablet) {
-        padding-top: 171px;
+        gap: 10px;
     }
 }
 
-.author__box {
+.author__container-left {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px 20px;
 
     @media screen and (min-width: $tablet) {
-            align-items: center;
+            width: 788px;
+                align-items: flex-end;
+                padding: 30px;
                 display: flex;
         }
+}
+
+.author__container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+
+    @media screen and (min-width: $desktop) {
+        padding: 379px 30px 30px;
+        width: 788px;
+    }
 }
 
 .author__img {
@@ -55,9 +77,9 @@ gap: 15px;
     height: 180px;
     margin-bottom: 20px;
 
-    @media screen and (min-width: $tablet) {
-            width: 210px;
-                height: 210px;
+    @media screen and (min-width: $desktop) {
+            width: 233px;
+                height: 233px;
                 margin-bottom: 29px;
         }
 }

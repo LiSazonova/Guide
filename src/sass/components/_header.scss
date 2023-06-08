@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 24px 21px;
 }
 
 .header__logo {
@@ -11,6 +12,11 @@
         width: 111px;
         height: 41px;
     }
+
+        @media screen and (min-width: $desktop) {
+           width: 150px;
+        height: 57px;
+        }
 }
 
 .nav__list {
@@ -26,6 +32,10 @@
             gap: 30px;
         }
 
+         @media screen and (min-width: $desktop) {
+            gap: 60px;
+         }
+
 
 }
 
@@ -33,6 +43,11 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 1.3;
+
+    @media screen and (min-width: $desktop) {
+            font-size: 18px;
+                line-height: 1.3;
+        }
 }
 
 .menu-toggle {

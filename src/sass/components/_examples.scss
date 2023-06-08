@@ -7,54 +7,47 @@
 }
 
 .examples__sticker {
-    // width: 100px;
-    // height: 100px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     top: 134px;
     left: 210px;
     
-        @media screen and (min-width: $mobile) {
+        @media screen and (min-width: $desktop) {
             // width: auto;
             // height: auto;
-            width: 118px;
-            height: 118px;
-    
-            left: 330px;
-            top: 104px;
-        }
-    
-        @media screen and (min-width: $tablet) {
-            // width: auto;
-            // height: auto;
-            width: 110px;
-            height: 110px;
-    
-            left: 202px;
-            top: 200px;
+            width: 138px;
+                height: 138px;
+                top: 305px;
+                    left: 518px;
         }
 }
 
 .examples__container {
     margin-bottom: 5px;
+    padding: 30px 20px;
 
-    @media screen and (min-width: $tablet) {
-            padding: 108px 264px 30px 20px;
+    // @media screen and (min-width: $tablet) {
+    //         padding: 108px 264px 30px 20px;
+    //     }
+        @media screen and (min-width: $desktop) {
+            padding: 173px 0 30px 30px;
         }
 }
 
 .examples__container-img {
     margin: 0 auto;
         padding: 0;
-        max-width: $mobile;
+        // max-width: $mobile;
     
         @media screen and (min-width: $tablet) {
             // padding: 0 40px;
-            max-width: $tablet;
+            // max-width: $tablet;
         }
     
         @media screen and (min-width: $desktop) {
             // padding: 0 40px;
-            max-width: $desktop;
+            // max-width: $desktop;
         }
 }
 
@@ -64,10 +57,11 @@
         font-size: 30px;
         line-height: 1.1;
         text-transform: uppercase;
+        width: 270px;
 
-        @media screen and (min-width: $tablet) {
-                font-size: 42px;
-                line-height: 1.1;
+        @media screen and (min-width: $desktop) {
+                font-size: 57px;
+        width: 768px;
             }
 }
 
@@ -79,6 +73,7 @@
     @media screen and (min-width: $tablet) {
             display: flex;
                 flex-direction: row;
+                justify-content: center;
                 gap: 5px;
         }
     // position: absolute;
@@ -92,6 +87,9 @@
 
 .examples__item:last-child {
     display: none;
+    @media screen and (min-width: $desktop) {
+            display: flex;
+        }
 }
 
 

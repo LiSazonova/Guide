@@ -40,28 +40,22 @@ button {
 }
 
 .container {
-    // width: 100%;
     margin: 0 auto;
-    padding: 30px 20px; 
-    max-width: $mobile;
-        min-width: 310px;
+    padding: 0; 
+    max-width: 375px;
+    min-width: 310px;
 
-    @media screen and (min-width: $tablet) {
-            // padding: 0 40px;
-            max-width: $tablet;
-        }
-    
-        @media screen and (min-width: $laptop) {
-            // padding: 0 60px;
-            max-width: $laptop;
-        }
+    // @media screen and (min-width: $tablet) {
+    //         max-width: 1024px;
+    //     }   
+        
     
         @media screen and (min-width: $desktop) {
-            // padding: 0 100px;
-            max-width: $desktop;
+            max-width: 1580px; 
         }
 }
 
 .link {
     text-decoration: none;
+    color: #ffffff;
 }
