@@ -17,7 +17,7 @@
     //     }
 }
 
-.landing{
+.landing {
     padding: 5px;
 
     // @media screen and (min-width: $tablet) {
@@ -29,64 +29,72 @@
     width: 100%;
     height: 41px;
     font-weight: 600;
-        font-size: 14px;
-        line-height: 1.5;
-        color: var(--primary-color);
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--primary-color);
+
 
     background-color: var(--first-accent-color);
-        border-radius: 110px;
-        padding: 10px 68px;
+    border-radius: 110px;
+    padding: 10px 68px;
+    
 
-        @media screen and (min-width: $laptop) {
-                height: 76px;
-                    padding: 20px;
-                    font-size: 24px;
-            }
+    @media screen and (min-width: $laptop) {
+        height: 76px;
+        padding: 20px;
+        font-size: 24px;
+    }
 
-        @media screen and (min-width: $desktop) {
-                padding: 28px;
-                    height: 91px;
-                    font-size: 24px;
-            }
+    @media screen and (min-width: $desktop) {
+        padding: 28px;
+        height: 91px;
+        font-size: 24px;
+    }
 }
+
+.orange__btn-link:hover,
+.black__btn-link:hover {
+    color: var(--third-accent-color);
+}
+
 
 .black__btn {
     width: 100%;
     font-weight: 600;
-        font-size: 14px;
-        line-height: 1.5;
-        color: var(--primary-color);
-    
-        background-color: var(--container-bg-color);
-        border-radius: 110px;
-        padding: 10px 68px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--primary-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: var(--container-bg-color);
+    border-radius: 110px;
+    padding: 10px 68px;
 
-        @media screen and (min-width: $laptop) {
-                height: 76px;
-                padding: 20px;
-                font-size: 24px;
-            }
+    @media screen and (min-width: $laptop) {
+        height: 76px;
+        padding: 20px;
+        font-size: 24px;
+    }
 
-        @media screen and (min-width: $desktop) {
-                padding: 28px;
-                height: 91px;
-                font-size: 24px;
-            }
+    @media screen and (min-width: $desktop) {
+        padding: 28px;
+        height: 91px;
+        font-size: 24px;
+    }
 }
 
 .section__text {
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.4;
+    font-size: 16px;
+    line-height: 1.4;
 
     // @media screen and (min-width: $tablet) {
     //         font-size: 18px;
     //         line-height: 1.3;
     //     }
 
-        @media screen and (min-width: $laptop) {
-            font-size: 24px;
-        }
+    @media screen and (min-width: $laptop) {
+        font-size: 24px;
+    }
 }
 
 .section__item {
@@ -96,7 +104,6 @@
 
     @media screen and (min-width: $laptop) {
         // width: 716px;
-            font-size: 16px;
-        }
+        font-size: 16px;
+    }
 }
-

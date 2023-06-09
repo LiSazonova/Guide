@@ -42,6 +42,10 @@ display: flex;
                 }
 }
 
+.contacts__text:hover {
+        color: var(--third-accent-color);
+}
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
