@@ -5,6 +5,10 @@
 .author__container {
     margin-bottom: 5px;
     padding: 108px 78px 30px 20px ;
+
+    @media screen and (min-width: $laptop) {
+            padding: 187px 0 30px 30px;
+        }
 }
 
 .author__title {    
@@ -13,7 +17,12 @@
     font-size: 31px;
     line-height: 1.1;
     text-transform: uppercase;
-    width: 270px;
+    width: 320px;
+
+    @media screen and (min-width: $laptop) {
+        font-size: 42px;
+        width: 545px;
+        }
 
     @media screen and (min-width: $desktop) {
         font-size: 57px;
@@ -26,7 +35,7 @@ display: flex;
 flex-direction: column;
 gap: 5px;
 
-@media screen and (min-width: $desktop) {
+@media screen and (min-width: $laptop) {
         flex-direction: row;
             gap: 5px;
             display: flex;
@@ -40,10 +49,6 @@ gap: 5px;
 display: flex;
 flex-direction: column;
 gap: 15px;
-
-@media screen and (min-width: $tablet) {
-        gap: 10px;
-    }
 }
 
 .author__container-left {
@@ -52,11 +57,20 @@ gap: 15px;
     align-items: center;
     padding: 30px 20px;
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: $laptop) {
+    flex-direction: column;
+        align-items: flex-end;
+        flex-wrap: wrap;
+            align-content: space-between;
+        padding: 30px 32px 30px 30px;
+        display: flex;
+        width: 638px;
+        height: 445px;
+        }
+
+        @media screen and (min-width: $desktop) {
             width: 788px;
-                align-items: flex-end;
-                padding: 30px;
-                display: flex;
+            height: 574px;
         }
 }
 
@@ -66,9 +80,19 @@ gap: 15px;
     align-items: center;
     padding: 30px 20px;
 
+    @media screen and (min-width: $laptop) {
+            flex-direction: column;
+            align-items: flex-end;
+                    padding: 221px 30px 30px;
+            display: flex;
+            width: 638px;
+            height: 445px;
+        }
+
     @media screen and (min-width: $desktop) {
         padding: 379px 30px 30px;
         width: 788px;
+        height: 574px;
     }
 }
 

@@ -8,20 +8,17 @@
     border-radius: 20px;
 }
 
-// .main {}
-
-// .container {}
-
-// .main__list {}
-
-// .bg-grafit {}
-
 .container__main-left {
     padding: 30px 20px;
-    // margin-bottom: 5px;
+
+    @media screen and (min-width: $laptop) {
+            width: 638px;
+                height: 687px;
+    }
 
     @media screen and (min-width: $desktop) {
-            width: 788px;            
+            width: 788px;
+            height: 887px;
             padding: 30px 30px;
         }
 }
@@ -37,6 +34,11 @@
 
         margin-bottom: 32px;
 
+        @media screen and (min-width: $laptop) {
+                font-size: 60px;
+                width: 516px;
+            }
+
         @media screen and (min-width: $desktop) {
         font-size: 80px;
         width: 716px;
@@ -50,6 +52,12 @@
         line-height: 1.3;
 
         margin-bottom: 80px;
+
+        @media screen and (min-width: $laptop) {
+                width: 516px;
+                    margin-bottom: 210px;
+                    font-size: 24px;
+            }
 
         @media screen and (min-width: $desktop) {
                 font-size: 24px;
@@ -65,6 +73,11 @@
 .container__main-right {
     position: relative;
 
+    @media screen and (min-width: $laptop) {
+            width: 638px;
+                height: 687px;
+        }
+
     @media screen and (min-width: $desktop) {            
             width: 788px;
             height: 887px;
@@ -75,6 +88,11 @@
         position: absolute;
         top: 46px;
             left: 37px;
+@media screen and (min-width: $laptop) {
+        top: 75px;
+            left: 70px;
+    }
+            
             @media screen and (min-width: $desktop) {
                 top: 118px;
                     left: 80px;
@@ -86,12 +104,21 @@
         flex-direction: column;
         gap: 5px;
 
+        @media screen and (min-width: $laptop) {
+                display: flex;
+                flex-direction: row;
+                gap: 5px;
+                justify-content: center;
+                // width: 778px;
+                //     height: 887px;
+            }
+
         @media screen and (min-width: $desktop) {
                 display: flex;
                     flex-direction: row;
                     gap: 5px;
-                    width: 778px;
-                        height: 887px;
+                    // width: 778px;
+                    //     height: 887px;
             }
 
     //     // @media screen and (min-width: $tablet) {
@@ -184,11 +211,18 @@
 
 
 .main__sticker {    
-    @media screen and (min-width: $desktop) {
-            width: 250px;
-                height: 145px;
+    @media screen and (min-width: $laptop) {
+            width: 220px;
+                height: 125px;               
         
     }
+
+        @media screen and (min-width: $desktop) {
+            width: 250px;
+                height: 145px;    
+        }
+
+        
 
     // @media screen and (min-width: $tablet) {
     //     // width: auto;

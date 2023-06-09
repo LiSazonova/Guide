@@ -5,9 +5,13 @@
 .feedback__container {
     margin-bottom: 5px;
     padding: 108px 115px 30px 20px;
-        @media screen and (min-width: $tablet) {
-            padding: 108px 264px 30px 20px;
+
+    @media screen and (min-width: $laptop) {
+            padding: 187px 0 30px 30px;
         }
+        // @media screen and (min-width: $tablet) {
+        //     padding: 108px 264px 30px 20px;
+        // }
 }
 
 .feedback__list {
@@ -15,7 +19,7 @@
         flex-direction: column;
         gap: 5px;
     
-        @media screen and (min-width: $tablet) {
+        @media screen and (min-width: $laptop) {
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -25,17 +29,11 @@
 
 .feedback__item:last-child {
     display: none;
-    @media screen and (min-width: $desktop) {
+    @media screen and (min-width: $laptop) {
             display: flex; 
         }
 }
 
-.feedback__item {
-    @media screen and (min-width: $tablet) {
-            // width: calc((100% - 20px) / 3);
-        }
-    
-}
 
 .feedback__container-img {
     width: 365px;
@@ -44,19 +42,13 @@
         justify-content: center;
         align-items: center;
 
+        @media screen and (min-width: $laptop) {
+                width: 316px;
+                height: 320px; 
+            }
+
         @media screen and (min-width: $desktop) {
                 width: 391px;
                     height: 400px;
-            }
-}
-
-.feedback__img {
-    // width: 100%;
-    //     height: 100%;
-        border-radius: 20px;
-
-        @media screen and (min-width: $tablet) {
-                // padding: 0 40px;
-                // width: 265px;
             }
 }

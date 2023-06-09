@@ -5,6 +5,10 @@
 .offer__container {
     margin-bottom: 5px;
     padding: 108px 100px 30px 20px;
+
+    @media screen and (min-width: $laptop) {
+            padding: 187px 0 30px 30px;
+        }
 }
 
 .offer__title {
@@ -14,16 +18,14 @@
         line-height: 1.1;
         text-transform: uppercase;
 
-        @media screen and (min-width: $desktop) {
-                font-size: 57px;
+        @media screen and (min-width: $laptop) {
+                font-size: 42px;
                 width: 480px;
             }
 
-        // @media screen and (min-width: $tablet) {
-        //     width: 457px;
-        //         font-size: 42px;
-        //         line-height: 1.1;
-        //     }
+        @media screen and (min-width: $desktop) {
+                font-size: 57px;
+            }
 }
 
 .offer__list-sec {
@@ -37,7 +39,7 @@ display: flex;
     flex-direction: column;
     gap: 15px;
 
-    @media screen and (min-width: $desktop) {
+    @media screen and (min-width: $laptop) {
             gap: 10px;
         }
 }
@@ -46,35 +48,41 @@ display: flex;
     padding: 30px 20px;
     margin-bottom: 5px;
 
-    @media screen and (min-width: $desktop) {
-            width: 788px;
+    @media screen and (min-width: $laptop) {
+            width: 638px;
             height: 270px;
             margin-bottom: 0px;
             display: flex;
             align-items: flex-end;
             padding: 0 0 41px 30px;
         }
+
+    @media screen and (min-width: $desktop) {
+            width: 788px;            
+        }
 }
 
 .offer__container-right {
     padding: 30px 20px;
 
-    @media screen and (min-width: $desktop) {
-            width: 788px;
+    @media screen and (min-width: $laptop) {
+            width: 638px;
             height: 270px;
             display: flex;
-                align-items: flex-end;    
-                padding: 30px 30px
+            align-items: flex-end;
+            padding: 30px 30px
         }
-    // margin-bottom: 5px;
+
+    @media screen and (min-width: $desktop) {
+            width: 788px;            
+        }
 }
 
 .offer__list-box {
-    @media screen and (min-width: $desktop) {
+    @media screen and (min-width: $laptop) {
             display: flex;
-                flex-direction: row;
-                justify-content: center;
-                gap: 5px;
-        }
-    
+            flex-direction: row;
+            justify-content: center;
+            gap: 5px;
+        }    
 }

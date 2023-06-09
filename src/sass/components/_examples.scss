@@ -12,14 +12,21 @@
     position: absolute;
     top: 134px;
     left: 210px;
-    
-        @media screen and (min-width: $desktop) {
+
+    @media screen and (min-width: $laptop) {
             // width: auto;
             // height: auto;
+            width: 120px;
+                height: 120px;
+                top: 265px;
+                left: 288px;
+        }
+    
+        @media screen and (min-width: $desktop) {            
             width: 138px;
                 height: 138px;
                 top: 305px;
-                    left: 518px;
+                    left: 308px;
         }
 }
 
@@ -27,29 +34,26 @@
     margin-bottom: 5px;
     padding: 30px 20px;
 
-    // @media screen and (min-width: $tablet) {
-    //         padding: 108px 264px 30px 20px;
-    //     }
-        @media screen and (min-width: $desktop) {
+        @media screen and (min-width: $laptop) {
             padding: 173px 0 30px 30px;
         }
 }
 
-.examples__container-img {
-    margin: 0 auto;
-        padding: 0;
-        // max-width: $mobile;
+// .examples__container-img {
+//     margin: 0 auto;
+//         padding: 0;
+//         // max-width: $mobile;
     
-        @media screen and (min-width: $tablet) {
-            // padding: 0 40px;
-            // max-width: $tablet;
-        }
+//         // @media screen and (min-width: $tablet) {
+//         //     // padding: 0 40px;
+//         //     // max-width: $tablet;
+//         // }
     
-        @media screen and (min-width: $desktop) {
-            // padding: 0 40px;
-            // max-width: $desktop;
-        }
-}
+//         @media screen and (min-width: $desktop) {
+//             // padding: 0 40px;
+//             // max-width: $desktop;
+//         }
+// }
 
 .examples__title {
     font-family: 'TT Firs Neue';
@@ -59,10 +63,15 @@
         text-transform: uppercase;
         width: 270px;
 
-        @media screen and (min-width: $desktop) {
-                font-size: 57px;
-        width: 768px;
+        @media screen and (min-width: $laptop) {
+                font-size: 42px;
+        width: 568px;
             }
+
+                        @media screen and (min-width: $desktop) {
+                            font-size: 57px;
+                            width: 768px;
+                        }
 }
 
 .examples__list {
@@ -70,7 +79,14 @@
     flex-direction: column;
     gap: 5px;
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: $laptop) {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 5px;
+        }
+
+    @media screen and (min-width: $desktop) {
             display: flex;
                 flex-direction: row;
                 justify-content: center;
@@ -87,7 +103,8 @@
 
 .examples__item:last-child {
     display: none;
-    @media screen and (min-width: $desktop) {
+
+    @media screen and (min-width: $laptop) {
             display: flex;
         }
 }

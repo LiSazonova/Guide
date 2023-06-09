@@ -45,12 +45,11 @@ button {
     max-width: 375px;
     min-width: 310px;
 
-    // @media screen and (min-width: $tablet) {
-    //         max-width: 1024px;
-    //     }   
-        
+    @media screen and (min-width: $laptop) {
+            max-width: 1280px;
+        }      
     
-        @media screen and (min-width: $desktop) {
+    @media screen and (min-width: $desktop) {
             max-width: 1580px; 
         }
 }

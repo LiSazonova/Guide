@@ -8,7 +8,7 @@
 .header__logo {
     fill: var(--primary-color);
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: $laptop) {
         width: 111px;
         height: 41px;
     }
@@ -22,10 +22,10 @@
 .nav__list {
     display: none;
 
-    @media screen and (min-width: $tablet) {
-        // font-weight: 500;
-        //     font-size: 16px;
-        //     line-height: 1.31;
+    @media screen and (min-width: $laptop) {
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.31;
 
             display: flex;
             align-items: center;
@@ -44,7 +44,7 @@
     font-size: 12px;
     line-height: 1.3;
 
-    @media screen and (min-width: $desktop) {
+    @media screen and (min-width: $laptop) {
             font-size: 18px;
                 line-height: 1.3;
         }
@@ -59,7 +59,7 @@
     background-color: rgba(0, 0, 0, 0);
     padding: 0;
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: $laptop) {
             display: none;
         }
 }
