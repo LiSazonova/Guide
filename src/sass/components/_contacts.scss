@@ -7,6 +7,10 @@ text-align: center;
                 padding: 79px 100px 30px 30px;
                 width: 424px;
 }
+
+@media screen and (min-width: $desktop) {
+        width: 524px;
+}
 }
 
 .contacts__list {
