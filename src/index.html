@@ -36,7 +36,34 @@
                 </li>
             </ul>
         </nav> 
-        <button type="button" class="menu-toggle">Menu</button>   
+        <button type="button" class="menu-toggle js-open-menu" aria-expanded="false">Меню</button>   
+        </div>
+        <div class="mob-menu js-menu-container">
+            <div class="container">
+                <button type="button" class="menu-toggle js-close-menu" aria-expanded="false">Закрити</button>
+                    <ul class="mobile-menu list"> 
+                        <li class="mobile-menu__item">
+                            <a href="#" class="mobile-menu__link link">Головна</a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="#" class="mobile-menu__link link">Для кого шпаргалка</a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="#" class="mobile-menu__link link">Що ти отримаєш у гайді?</a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="#" class="mobile-menu__link link">Про мене</a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="#" class="mobile-menu__link link">Відгуки</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="orange__btn">
+                        <a href="https://secure.wayforpay.com/payment/sca08012b5ea3" class="orange__btn-link link"
+                            rel="nofollow noopener noreferrer" target="_blank">Забрати шпаргалку</a>
+                    </button>
+                </div>                
+            </div>
         </div>
     </header>
     <main class="landing">
@@ -398,9 +425,7 @@
             </div>
         </section>
     </main>
-    <!-- <div class="backdrop backdrop--is-hidden" data-modal>
-        <div class="modal"></div>
-    </div> -->
+    <script src="./js/menu.js"></script> 
 </body>
 
 </html>
