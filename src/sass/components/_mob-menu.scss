@@ -1,16 +1,3 @@
-// .menu-toggle {
-//     font-weight: 500;
-//     font-size: 16px;
-//     line-height: 1.3;
-//     border: none;
-//     color: var(--primary-color);
-//     background-color: rgba(0, 0, 0, 0);
-//     padding: 0;
-
-//     @media screen and (min-width: $laptop) {
-//         display: none;
-//     }
-// }
 .menu-toggle {
     font-weight: 500;
     font-size: 16px;
@@ -50,10 +37,9 @@
         flex-direction: column;
         justify-content: space-between;
         height: 100%;
-        z-index: 999;
         padding: 20px 30px 30px 30px;
         overflow-y: auto;
-    }    
+    }
 
     @media screen and (min-width: $laptop) {
         display: none;
@@ -72,6 +58,10 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.3;
+}
+
+.mobile-menu__link:hover {
+    color: var(--third-accent-color);
 }
 
 .mobile-menu {

@@ -14,41 +14,41 @@
     left: 210px;
 
     @media screen and (min-width: $laptop) {
-            // width: auto;
-            // height: auto;
-            width: 120px;
-                height: 120px;
-                top: 265px;
-                left: 288px;
-        }
-    
-        @media screen and (min-width: $desktop) {            
-            width: 138px;
-                height: 138px;
-                top: 305px;
-                    left: 308px;
-        }
+        // width: auto;
+        // height: auto;
+        width: 120px;
+        height: 120px;
+        top: 265px;
+        left: 288px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 138px;
+        height: 138px;
+        top: 305px;
+        left: 308px;
+    }
 }
 
 .examples__container {
     margin-bottom: 5px;
     padding: 30px 20px;
 
-        @media screen and (min-width: $laptop) {
-            padding: 173px 0 30px 30px;
-        }
+    @media screen and (min-width: $laptop) {
+        padding: 173px 0 30px 30px;
+    }
 }
 
 // .examples__container-img {
 //     margin: 0 auto;
 //         padding: 0;
 //         // max-width: $mobile;
-    
+
 //         // @media screen and (min-width: $tablet) {
 //         //     // padding: 0 40px;
 //         //     // max-width: $tablet;
 //         // }
-    
+
 //         @media screen and (min-width: $desktop) {
 //             // padding: 0 40px;
 //             // max-width: $desktop;
@@ -57,21 +57,21 @@
 
 .examples__title {
     font-family: 'TT Firs Neue';
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 1.1;
-        text-transform: uppercase;
-        width: 270px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    width: 270px;
 
-        @media screen and (min-width: $laptop) {
-                font-size: 42px;
+    @media screen and (min-width: $laptop) {
+        font-size: 42px;
         width: 568px;
-            }
+    }
 
-                        @media screen and (min-width: $desktop) {
-                            font-size: 57px;
-                            width: 768px;
-                        }
+    @media screen and (min-width: $desktop) {
+        font-size: 57px;
+        width: 768px;
+    }
 }
 
 .examples__list {
@@ -80,19 +80,18 @@
     gap: 5px;
 
     @media screen and (min-width: $laptop) {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 5px;
-        }
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5px;
+    }
 
     @media screen and (min-width: $desktop) {
-            display: flex;
-                flex-direction: row;
-                justify-content: center;
-                gap: 5px;
-        }
-    // position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5px;
+    }
 }
 
 .examples__img {
@@ -105,10 +104,6 @@
     display: none;
 
     @media screen and (min-width: $laptop) {
-            display: flex;
-        }
+        display: flex;
+    }
 }
-
-
-
-

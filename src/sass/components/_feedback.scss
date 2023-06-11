@@ -7,48 +7,46 @@
     padding: 108px 115px 30px 20px;
 
     @media screen and (min-width: $laptop) {
-            padding: 187px 0 30px 30px;
-        }
-        // @media screen and (min-width: $tablet) {
-        //     padding: 108px 264px 30px 20px;
-        // }
+        padding: 187px 0 30px 30px;
+    }
 }
 
 .feedback__list {
     display: flex;
-        flex-direction: column;
+    flex-direction: column;
+    gap: 5px;
+
+    @media screen and (min-width: $laptop) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         gap: 5px;
-    
-        @media screen and (min-width: $laptop) {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 5px;
-        }
+    }
 }
 
 .feedback__item:last-child {
     display: none;
+
     @media screen and (min-width: $laptop) {
-            display: flex; 
-        }
+        display: flex;
+    }
 }
 
 
 .feedback__container-img {
     width: 365px;
-        height: 305px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    height: 305px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-        @media screen and (min-width: $laptop) {
-                width: 316px;
-                height: 320px; 
-            }
+    @media screen and (min-width: $laptop) {
+        width: 316px;
+        height: 320px;
+    }
 
-        @media screen and (min-width: $desktop) {
-                width: 391px;
-                    height: 400px;
-            }
+    @media screen and (min-width: $desktop) {
+        width: 391px;
+        height: 400px;
+    }
 }

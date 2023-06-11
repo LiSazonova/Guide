@@ -4,14 +4,14 @@
 
 .author__container {
     margin-bottom: 5px;
-    padding: 108px 78px 30px 20px ;
+    padding: 108px 78px 30px 20px;
 
     @media screen and (min-width: $laptop) {
-            padding: 187px 0 30px 30px;
-        }
+        padding: 187px 0 30px 30px;
+    }
 }
 
-.author__title {    
+.author__title {
     font-family: 'TT Firs Neue';
     font-weight: 500;
     font-size: 31px;
@@ -22,33 +22,31 @@
     @media screen and (min-width: $laptop) {
         font-size: 42px;
         width: 545px;
-        }
+    }
 
     @media screen and (min-width: $desktop) {
         font-size: 57px;
-            width: 712px;
-        }
-}
-
-.author__list-sec {
-display: flex;
-flex-direction: column;
-gap: 5px;
-
-@media screen and (min-width: $laptop) {
-        flex-direction: row;
-            gap: 5px;
-            display: flex;
-            justify-content: center;
+        width: 712px;
     }
 }
 
+.author__list-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 
+    @media screen and (min-width: $laptop) {
+        flex-direction: row;
+        gap: 5px;
+        display: flex;
+        justify-content: center;
+    }
+}
 
 .author__list {
-display: flex;
-flex-direction: column;
-gap: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .author__container-left {
@@ -58,20 +56,20 @@ gap: 15px;
     padding: 30px 20px;
 
     @media screen and (min-width: $laptop) {
-    flex-direction: column;
+        flex-direction: column;
         align-items: flex-end;
         flex-wrap: wrap;
-            align-content: space-between;
+        align-content: space-between;
         padding: 30px 32px 30px 30px;
         display: flex;
         width: 638px;
         height: 445px;
-        }
+    }
 
-        @media screen and (min-width: $desktop) {
-            width: 788px;
-            height: 574px;
-        }
+    @media screen and (min-width: $desktop) {
+        width: 788px;
+        height: 574px;
+    }
 }
 
 .author__container-right {
@@ -81,13 +79,13 @@ gap: 15px;
     padding: 30px 20px;
 
     @media screen and (min-width: $laptop) {
-            flex-direction: column;
-            align-items: flex-end;
-                    padding: 221px 30px 30px;
-            display: flex;
-            width: 638px;
-            height: 445px;
-        }
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 221px 30px 30px;
+        display: flex;
+        width: 638px;
+        height: 445px;
+    }
 
     @media screen and (min-width: $desktop) {
         padding: 379px 30px 30px;
@@ -102,8 +100,8 @@ gap: 15px;
     margin-bottom: 20px;
 
     @media screen and (min-width: $desktop) {
-            width: 233px;
-                height: 233px;
-                margin-bottom: 29px;
-        }
+        width: 233px;
+        height: 233px;
+        margin-bottom: 29px;
+    }
 }

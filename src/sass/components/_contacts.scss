@@ -1,20 +1,20 @@
 .contacts__container {
-    padding: 29px;
-text-align: center;
+        padding: 29px;
+        text-align: center;
 
-    @media screen and (min-width: $laptop) {
+        @media screen and (min-width: $laptop) {
                 text-align: left;
                 padding: 79px 100px 30px 30px;
                 width: 424px;
-}
+        }
 
-@media screen and (min-width: $desktop) {
-        width: 524px;
-}
+        @media screen and (min-width: $desktop) {
+                width: 524px;
+        }
 }
 
 .contacts__list {
-display: flex;
+        display: flex;
         flex-direction: column;
         gap: 5px;
 
@@ -23,14 +23,8 @@ display: flex;
                 flex-direction: row;
                 justify-content: center;
                 gap: 5px;
-                // width: calc((100% - 20px / 3));
         }
 }
-
-// .contacts__item {
-//         // width: calc((100% - 20px / 3));
-//         width: 265px;
-// }
 
 .contacts__text {
         font-weight: 400;
@@ -38,8 +32,8 @@ display: flex;
         line-height: 1.6;
 
         @media screen and (min-width: $laptop) {
-                        font-size: 24px;
-                }
+                font-size: 24px;
+        }
 }
 
 .contacts__text:hover {
@@ -47,14 +41,14 @@ display: flex;
 }
 
 .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
 }

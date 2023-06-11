@@ -4,43 +4,41 @@
 
 .description__container {
     margin-bottom: 5px;
-    padding: 108px 215px 30px 20px;   
-    
+    padding: 108px 215px 30px 20px;
+
     @media screen and (min-width: $laptop) {
-            padding: 187px 0 30px 30px;
-        }
+        padding: 187px 0 30px 30px;
+    }
 }
 
 .description__container-left {
     padding: 30px 20px;
 
     @media screen and (min-width: $laptop) {
-            width: 738px;
-            padding: 88px 30px 30px;
-            display: flex;
-        }
+        width: 738px;
+        padding: 88px 30px 30px;
+        display: flex;
+    }
 
     @media screen and (min-width: $desktop) {
-            width: 788px;
-                padding: 88px 30px 30px;
-            }
+        width: 788px;
+        padding: 88px 30px 30px;
+    }
 }
-
 
 .description__container-right {
     padding: 30px 20px;
 
     @media screen and (min-width: $laptop) {
-            width: 538px;
-            display: flex;
-            padding: 183px 30px 30px;
-        }
+        width: 538px;
+        display: flex;
+        padding: 183px 30px 30px;
+    }
 
     @media screen and (min-width: $desktop) {
-            width: 788px;
-            padding: 131px 30px 30px;
-                
-        }
+        width: 788px;
+        padding: 131px 30px 30px;
+    }
 }
 
 
@@ -50,11 +48,11 @@
     gap: 5px;
 
     @media screen and (min-width: $laptop) {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 5px;
-        }    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5px;
+    }
 }
 
 .description__list {
@@ -63,46 +61,45 @@
     gap: 15px;
 
     @media screen and (min-width: $desktop) {
-            gap: 10px;
-        }
+        gap: 10px;
+    }
 }
 
 .description__list .section__item {
 
     @media screen and (min-width: $laptop) {
-                width: 300px;
-        }
+        width: 300px;
+    }
 
-                @media screen and (min-width: $desktop) {
-                                    width: 330px;
-                }
+    @media screen and (min-width: $desktop) {
+        width: 330px;
+    }
 }
 
 .description__list:first-child {
     margin-bottom: 15px;
 
     @media screen and (min-width: $laptop) {
-            margin-bottom: 0;
-                margin-right: 66px;
-        }
+        margin-bottom: 0;
+        margin-right: 66px;
+    }
 }
 
 .description__title {
     font-family: 'TT Firs Neue';
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 1.1;
-        text-transform: uppercase;
-        width: 270px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    width: 270px;
 
-        @media screen and (min-width: $laptop) {
-                font-size: 42px;
-                width: 340px;
-            }
+    @media screen and (min-width: $laptop) {
+        font-size: 42px;
+        width: 340px;
+    }
 
-        @media screen and (min-width: $desktop) {
-                font-size: 57px;
+    @media screen and (min-width: $desktop) {
+        font-size: 57px;
         width: 716px;
-            }
+    }
 }
-
